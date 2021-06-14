@@ -4,6 +4,7 @@ import Adapter from 'enzyme-adapter-react-16';
 
 Enzyme.configure({ adapter: new Adapter() });
 
+// disable if you don't install react-native-gesture-handler and react-native-reanimated
 jest.mock('react-native-reanimated', () => {
     const Reanimated = require('react-native-reanimated/mock');
 
