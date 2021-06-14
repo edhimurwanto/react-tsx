@@ -1,0 +1,15 @@
+bc7ae1c397bab70e9ae3bf46dad4e4a5
+"use strict";
+
+
+
+require("react-native");
+var _react = _interopRequireDefault(require("react"));
+var _App = _interopRequireDefault(require("../App"));
+
+
+var _reactTestRenderer = _interopRequireDefault(require("react-test-renderer"));var _this = this,_jsxFileName = "/Users/edhi-uchiha/Enigma/React-Native/MyApp/__tests__/App-test.js";function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+it('renders correctly', function () {
+  _reactTestRenderer.default.create(_react.default.createElement(_App.default, { __self: _this, __source: { fileName: _jsxFileName, lineNumber: 13, columnNumber: 19 } }));
+});
